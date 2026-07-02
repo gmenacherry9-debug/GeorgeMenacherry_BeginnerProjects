@@ -1,7 +1,7 @@
 Total_bill = input('Total bill amount: ')
 Num_of_guests = input("How many guests are here? ")
 Split_tip = 0
-if Num_of_guests >= str(6):
+if int(Num_of_guests) >= 6:
     Total_with_tip = float(Total_bill) * 0.2 + float(Total_bill)
     print('Tip is 20%')
     print('Total: ', Total_with_tip)
