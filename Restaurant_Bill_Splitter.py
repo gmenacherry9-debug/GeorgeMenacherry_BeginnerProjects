@@ -7,11 +7,11 @@ if int(Num_of_guests) >= 6:
     print('Total: ', Total_with_tip)
     Split_tip = Total_with_tip / float(Num_of_guests)
     print('Split Amount: ', str(Split_tip))
-    print(f'Rounded Amount for each person: {round(Split_tip, 2)}')
+    print(f'Rounded Amount for each person: ${round(Split_tip, 2)}')
 else:
     Total_with_tip = float(Total_bill) * 0.15 + float(Total_bill)
     print('Tip is 15%')
     print('Total', Total_with_tip)
     Split_tip = Total_with_tip / float(Num_of_guests)
     print('Split Amount: ', str(Split_tip))
-    print(f'Rounded Amount for each person: {round(Split_tip, 2)}')
+    print(f'Rounded Amount for each person: ${round(Split_tip, 2)}')
